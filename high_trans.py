@@ -29,7 +29,7 @@ mod_list = ['OOK', '4ASK', '8ASK', 'BPSK', 'QPSK', '8PSK', '16PSK', '32PSK', '16
          '32APSK', '64APSK', '128APSK', '16QAM', '32QAM', '64QAM', '128QAM', \
          '256QAM', 'GMSK', 'OQPSK']
 
-hf = h5py.File('201801a_subset.h5', 'r+')
+hf = h5py.File('./subset/201801a_subset.h5', 'r+')
 x_test = hf['test'][:, :, :]
 x_train = hf['train'][:, :, :]
 pts = 300
