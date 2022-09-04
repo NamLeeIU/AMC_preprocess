@@ -1,0 +1,5 @@
+/dataset
+/__pycache__
+/.vscode
+/subset
+*.h5
